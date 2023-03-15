@@ -1,0 +1,39 @@
+html { 
+  background: url(imagen.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+
+
+
+button {
+	height: 50px;
+	width: 200px;
+	position: relative;
+	top: 500px;
+	left: 80px;
+	font-size: 30px;
+}
+
+#song {
+
+}
+
+.palpitate {
+  background-color: #4b0082;
+  color: #f8f8ff;
+  border-radius: 5px;
+  animation: palpitate 1s ease-in-out infinite;
+}
+
+@keyframes palpitate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
