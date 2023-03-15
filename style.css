@@ -1,16 +1,25 @@
 html { 
   background: url(imagen.jpg) no-repeat center fixed; 
   background-size: cover;
+
+}
+
+h1 {
+  position: relative;
+  top: 300px;
+  left: 30px;
+}
+img {
+  width: 300px;
 }
 
 
-
-
 button {
+
 	height: 50px;
 	width: 200px;
 	position: relative;
-	top: 500px;
+	top: 300px;
 	left: 80px;
 	font-size: 30px;
 }
